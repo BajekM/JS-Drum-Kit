@@ -1,0 +1,67 @@
+html {
+  font-size: 10px;
+  background: url(https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) bottom center;
+  background-size: cover;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+      flex: 1;
+  min-height: 100vh;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.key {
+  border: .5rem solid black;
+  border-radius: 1rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 .5rem black;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #00ff00;
+  box-shadow: 0 0 1rem #00ff00;
+  width: 100%;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  width: 100%;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #00ff00;
+}
+/*# sourceMappingURL=style.css.map */
